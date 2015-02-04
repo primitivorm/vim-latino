@@ -1,0 +1,64 @@
+snippet si
+si (${1:condicion})
+	${2}
+fin
+endsnippet
+
+snippet sino
+si (${1:condicion})
+	${2}
+sino
+	${3}
+fin
+endsnippet
+
+snippet elegir
+elegir (${1:valor})
+case ${2}:
+	${3}
+case ${4}:
+	${5}
+defecto ${6}:
+	${7}
+fin
+endsnippet
+
+snippet desde
+desde ${1:inicio} hasta ${2:fin}
+	${3}
+fin
+endsnippet
+
+snippet desdeinc
+desde ${1:inicio} hasta ${2:fin} incremento=${3}
+	${4}
+fin
+endsnippet
+
+snippet mientras
+mientras (${1:condicion})
+	${2}
+fin
+endsnippet
+
+snippet hacer
+hacer
+	${2}
+cuando (${1:condicion})
+endsnippet
+
+snippet clase
+clase ${1:nombre_clase}
+	${2}
+fin
+endsnippet
+
+snippet prop
+propiedad ${1:tipo_dato} ${2:nombre_propiedad}
+endsnippet
+
+snippet func
+funcion ${1:nombre_funcion} (${2})
+	${3}
+fin
+endsnippet
