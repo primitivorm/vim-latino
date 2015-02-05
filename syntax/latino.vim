@@ -12,7 +12,7 @@ syn keyword latTypeDecleration           clase lista diccionario principal const
 " repeat / condition / label
 syn keyword latRepeat     hacer desde mientras hasta cuando
 syn keyword latConditional    si sino elegir fin
-syn keyword latLabel      caso incremento constante romper continuar defecto retorno esta funcion
+syn keyword latLabel      caso salto constante romper continuar defecto retorno esta funcion
 syn keyword latConstant     falso verdadero
 
 syn match   latComment      "#.*$"
