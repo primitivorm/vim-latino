@@ -6,14 +6,14 @@ let s:lat_cpo_save = &cpo
 set cpo&vim
 
 " type
-syn keyword latType     logico entero decimal caracter cadena
+syn keyword latType               logico entero decimal caracter cadena
 " storage
-syn keyword latTypeDecleration           clase lista diccionario principal constructor propiedad publica privada protegida
+syn keyword latTypeDecleration    clase lista diccionario principal constructor propiedad publica privada protegida
 " repeat / condition / label
-syn keyword latRepeat     hacer desde mientras hasta cuando
-syn keyword latConditional    si sino elegir fin
-syn keyword latLabel      caso salto constante romper continuar defecto retorno esta funcion
-syn keyword latConstant     falso verdadero
+syn keyword latRepeat             mientras repetir hasta por cada en
+syn keyword latConditional        si sino fin
+syn keyword latLabel              romper continuar retorno esta funcion
+syn keyword latConstant           falso verdadero
 
 syn match   latComment      "#.*$"
 
