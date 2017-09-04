@@ -11,8 +11,8 @@ set cpo&vim
 " syn keyword latTypeDecleration    clase lista diccionario principal constructor propiedad publica privada protegida
 " repeat / condition / label
 syn keyword latRepeat      desde mientras repetir   hasta   por  cada    en
-syn keyword latConditional global   si       sino      fin     elegir    caso    defecto
-syn keyword latLabel       romper   continuar retorno esta funcion
+syn keyword latConditional global   si       osi    sino      fin     elegir    caso    defecto
+syn keyword latLabel       romper   continuar retorno   ret     retornar    esta    funcion    fun
 syn keyword latConstant    falso    verdadero
 
 syn match   latComment     "#.*$"
