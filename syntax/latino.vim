@@ -19,7 +19,7 @@ syn match cCustomFunc /\w\+\s*(/me=e-1,he=e-1
 " Operators: 
 syn cluster	latOperGroup	contains=latOper,latOperParen,latNumber,latString
 syn match	latOper	"\(==\|!=\|>=\|<=\|\~=\|>\|<\|=\)[?#]\{0,2}"	skipwhite nextgroup=latString
-syn match	latOper	"||\|&&\|[-+.*\/%^\[\]\(\)]"	skipwhite nextgroup=latString
+syn match	latOper	"||\|&&\|[!-+.*\/%^\[\]\(\)]"	skipwhite nextgroup=latString
 
 syn match   latComment     "#.*$"
 " cCommentGroup allows adding matches for special things in comments
